@@ -4,8 +4,20 @@
 make install-hooks
 ```
 
-### To skip git hooks
+### To run all checks manually
 
 ```bash
-make git-skipchecks
+make check
+```
+
+### To skip pre-commit checks
+
+```bash
+make skipcheck-precommit
+```
+
+### To skip pre-push checks
+
+```bash
+make skipcheck-prepush
 ```

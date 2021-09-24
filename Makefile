@@ -25,9 +25,9 @@ vet:
 sec:
 	gosec ./...
 
-commit-skipchecks:
+skipcheck-precommit:
 	git commit --no-verify
 
-push-skipchecks:
+skipcheck-prepush:
 	git push --no-verify
 	
