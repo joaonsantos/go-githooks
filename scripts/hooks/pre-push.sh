@@ -52,7 +52,7 @@ fi
 echo ""
 echo "Go vet checks..."
 
-go vet ./... && go vet -vettool=$(which shadow) ./...
+go vet ./...
 
 if [ "$?" != "0" ]
 then
