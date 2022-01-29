@@ -1,3 +1,5 @@
+This is my personal setup of basic git hooks for any of my go projects.
+
 ### To setup git hooks run
 
 ```bash
@@ -8,16 +10,4 @@ make install-hooks
 
 ```bash
 make check
-```
-
-### To skip pre-commit checks
-
-```bash
-make skipcheck-precommit
-```
-
-### To skip pre-push checks
-
-```bash
-make skipcheck-prepush
 ```
